@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-bs-table": [
+        "dist/ngx-bs-table"
+      ],
+      "ngx-bs-table/*": [
+        "dist/ngx-bs-table/*"
+      ]
+    }
   }
 }
