@@ -1,7 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'lib-ngx-bs-table',
+// tslint:disable-next-line: component-selector
+  selector: 'ngx-bs-table',
   template: `
   <div class="table-wrapper table-responsive">
   <div class="table-head-background"></div>
