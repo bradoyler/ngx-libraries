@@ -9,14 +9,13 @@ import { Component, OnInit, Input } from '@angular/core';
     <caption class="pl-2">
         <bs-table-spinner [loading]="loading"></bs-table-spinner>
     </caption>
-    <!--<thead bs-datatable-head
+    <thead bs-table-head
       [showSelectAll]="false"
-      [sortOptions]="sortOptions">
-    </thead> --
-    <!-- <tbody bs-datatable-body
+      [sortOptions]="sortOptions"></thead>
+    <tbody bs-table-body
       [showMultiSelect]="false"
       [loading]="loading"
-      [rows]="rows"></tbody> -->
+      [rows]="rows"></tbody>
   </table>
   <bs-table-pager></bs-table-pager>
 </div>
